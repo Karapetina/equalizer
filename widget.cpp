@@ -16,8 +16,7 @@ Widget::Widget(QWidget *parent) :
         QMessageBox::critical(this, tr("Visualizer"),
             tr("Can't init audio!"), QMessageBox::Ok);
     }
-
-    
+ 
     currentMode = Widget::Stop;
 
     ui->slider->setEnabled(false);
